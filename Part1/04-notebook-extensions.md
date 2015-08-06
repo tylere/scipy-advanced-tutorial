@@ -75,7 +75,7 @@ We keep python convention that `_xxx` is private.
 
 We only export a function called `load_ipython_extension` to the outside world:
 `return {load_ipython_extension: _on_load };`. Anything outside of this dict will
-be inaccessible for the rest of the code. You can see that as Python's `__all__`.
+be inaccessible for the rest of the code. You can see that with Python's `__all__` method.
 
 Note that you will find legacy extensions on the internet that *do not define*
 `load_ipython_extension` and rely on IPython's events, and `custom.js`.
