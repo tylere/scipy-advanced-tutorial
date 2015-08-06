@@ -90,8 +90,8 @@ that the ones using events and `custom.js`!
 ## New keyboard shortcut !
 
 Ok, so now let's modify our extension in order to be able to actually modify the
-User interface. We will try-to create a shortcut that kill the kernel without confirmation,
-and clear all the cell, plus re-run all the things.
+User interface. We will try-to create a shortcut that killS the kernel without confirmation,
+and clears all the cell, plus re-runs all the things.
 
 First things, we want to get access to all the IPython instance, to do so we want
 to import the right module so that `IPython` variable can be used safely.
