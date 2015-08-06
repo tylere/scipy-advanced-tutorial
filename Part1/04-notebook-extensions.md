@@ -28,7 +28,7 @@ and in 4.0 some of these folders will be `jupyter` instead of `ipython`.
 
 
 Now let's open a notebook and configure it to load the extension automatically.
-In a new notebook, or the one I provides with a reminder of the instructions, open the developer console
+In a new notebook, or the one I provided with a reminder of the instructions, open the developer console
 and enter the following:
 
 
